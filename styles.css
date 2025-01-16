@@ -48,15 +48,17 @@
   }
 
 /* Custom Styles */
-.container {
-  min-height: 100vh;
-  display: grid;
-  gap: 1em;
-  grid: min-content auto / 1fr;
-}
-
 .bookshelf {
   display: grid;
   gap: 0.5em;
-  grid: min-content / min-content;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: 1fr;
+}
+
+.book {
+  white-space: nowrap;
+  background-color: lightgray;
+  height: 10em;
+  padding: 2em;
+  text-align: center;
 }
