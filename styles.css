@@ -48,3 +48,15 @@
   }
 
 /* Custom Styles */
+.container {
+  min-height: 100vh;
+  display: grid;
+  gap: 1em;
+  grid: min-content auto / 1fr;
+}
+
+.bookshelf {
+  display: grid;
+  gap: 0.5em;
+  grid: min-content / min-content;
+}
